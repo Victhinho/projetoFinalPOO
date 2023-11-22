@@ -10,7 +10,7 @@ function desenharCards(idBaba, arrayBaba) {
                 <div class='conteudo'>
                     <h3 class='titulo'><a href='detalhes.html?id=${Baba.id}'> ${Baba.nome}</a></h3>
                     <p class='descricao'> ${Baba.descricao}></p>
-                <div>
+                </div>
                 <div class='barra-botoes'>
                     <button class='btn'>
                         <i class = 'fa fa-heart'></i>

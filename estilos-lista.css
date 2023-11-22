@@ -1,0 +1,45 @@
+/*
+.texto1{
+    color: #3b2261;
+}
+
+.card > .titulo{
+    color: black
+}
+
+.containerCards{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    border: dashed 1px blue;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+
+.card > .avatar{
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+} 
+
+.card > .conteudo{
+    width: 100%;
+}
+
+.card > .botoes{
+    width: 80px;
+    border: dashed 1px green;
+    border-radius: 30px;
+   
+} 
+*/
+
+
