@@ -1,0 +1,94 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #F7BFD5;
+    color: #f6e27d;
+}
+
+.form-login {
+    max-width: 360px;
+
+    margin: auto;
+    margin-top: 300px;
+    padding: 12px;
+
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+
+    /* border: solid rgba(17, 62, 96, 0.467); */
+    border-radius: 8px;
+    background-color: rgba(0, 0, 255, 0.252);
+}
+
+.form-login .linha-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-login .ipt {
+    /*Para estilizar as caixas de texto. */
+    background-color: #644394;
+    border: #644394;
+    color: #FFF0A6;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.btnPrimario {
+    background-color: #FFF0A6;
+    border: #FFF0A6;
+    color: #644394;
+    padding: 8px;
+    font-size: 24px;
+    border-radius: 8px;
+}
+
+/* **************************************** */
+
+.texto1{
+    color: #3b2261;
+}
+
+.card > .titulo{
+    color: black
+}
+
+.containerCards{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    border: dashed 1px blue;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+
+.card > .avatar{
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+} 
+
+.card > .conteudo{
+    width: 100%;
+}
+
+.card > .botoes{
+    width: 80px;
+    border: dashed 1px green;
+    border-radius: 30px;
+   
+} 
+
