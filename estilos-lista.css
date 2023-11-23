@@ -1,45 +1,90 @@
-/*
-.texto1{
-    color: #3b2261;
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.card > .titulo{
-    color: black
+body {
+    background-color: #644394;
+    color: #f6e27d;
+
+    margin: 0;
+}
+
+.texto1{
+    padding-top: 5rem;
+
+    text-align: center;
+    font-size: 2rem;
+    color: whitesmoke;
 }
 
 .containerCards{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding: 16px;
-    border: dashed 1px blue;
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem 4rem 4rem 4rem;
+   
 }
 
 .card{
     display: flex;
-    flex-direction: row;
-    height: 120px;
-    gap: 16px;
-    justify-content: space-between;
-}
+    flex-direction: column;
+    width: 100%;
+    max-width: 250px;
+    padding: 3rem 1rem 1rem 1rem ;
+    
+    border-radius: 10px;
+    box-sizing: content-box;
+    text-align: center;
 
+    border: solid 2px #F7BFD5;
+}
 
 .card > .avatar{
-    width: 120px;
-    object-fit: cover;
-    border-radius: 50%;
-} 
-
-.card > .conteudo{
-    width: 100%;
+    align-self: center;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
 }
 
-.card > .botoes{
-    width: 80px;
-    border: dashed 1px green;
-    border-radius: 30px;
-   
-} 
-*/
+.card > .conteudo{
+    text-align: justify;
+    margin: auto;
+}
+
+.card > .conteudo > .descricao{
+    font-size: 1rem;
+    margin: 2rem;
+}
+
+.card > .conteudo > .titulo{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.card > .conteudo > .titulo a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-decoration-line: underline;
+    text-decoration-color: #F7BFD5;
+}
+
+.card > .barra-botoes{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: 2rem;
+}
+
+.card > .barra-botoes >.btn{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+
+    color:#644394;
+    background-color: whitesmoke;
+    border:whitesmoke 1px solid; 
+}
 
 

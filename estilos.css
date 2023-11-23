@@ -7,26 +7,35 @@ body {
     color: #f6e27d;
 }
 
-.form-login {
-    max-width: 360px;
+.logo{
+    display: flex;
+    justify-content: space-between;
 
+    width: 80%;
+    max-width: 270px;
+    padding: 5rem 0 1rem 0;
     margin: auto;
-    margin-top: 300px;
-    padding: 12px;
+}
+
+.form-login {
+    width: 80%;
+    max-width: 350px;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 8px;
 
     display: flex;
-    gap: 12px;
+    gap: 1rem;
     flex-direction: column;
+    box-sizing: border-box;
 
-    /* border: solid rgba(17, 62, 96, 0.467); */
-    border-radius: 8px;
     background-color: rgba(0, 0, 255, 0.252);
 }
 
 .form-login .linha-form {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .form-login .ipt {
@@ -34,16 +43,18 @@ body {
     background-color: #644394;
     border: #644394;
     color: #FFF0A6;
-    font-size: 14px;
-    border-radius: 8px;
-    padding: 10px;
+    font-size: 1rem;
+
+    border-radius: 0.5rem;
+    padding: 0.6rem;
 }
 
 .btnPrimario {
     background-color: #FFF0A6;
     border: #FFF0A6;
     color: #644394;
-    padding: 8px;
     font-size: 24px;
+
+    padding: 0.5rem;
     border-radius: 8px;
 }
