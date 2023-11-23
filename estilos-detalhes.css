@@ -1,0 +1,31 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color:#f6e27d;
+    color:#644394;
+
+    margin: 0;
+    padding: 0;
+}
+
+.card-expandido{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem 4rem 4rem 4rem;
+}
+
+.card{
+    box-sizing: content-box;
+    text-align: center;
+}
+
+.card > .avatar{
+        align-self: center;
+        width: 50rem;
+        max-width: 80%;
+        height: 25rem;
+}

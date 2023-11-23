@@ -24,22 +24,17 @@ function desenharCards(idBaba, arrayBaba) {
     }
 }
 
-function desenharCardDetalhes(idBaba, arrayBaba) {
-    const Baba = arrayBaba.find((Baba) => Baba.id == idBaba);
-    let cardDetalhes = document.getElementById(idBaba);
-    cardDetalhes.innerHTML = `
-        <img class='avatar' src='img/${Baba.foto}'>
-        <div class='conteudo'>
-            <h3 class='titulo'><a href='detalhes.html?id=${Baba.id}'> ${Baba.nome}</a></h3>
-            <p class='descricao'> ${Baba.descricao}</p>
-        </div>
-        <div class='botoes'>
-            <button class='btn'>
-                <i class = 'fa fa-heart'></i>
-            </button>
-            <button class='btn'>
-                <i class = 'fa fa-star'></i>
-            </button>
-        </div>
-    `
+function desenharCardDetalhes(idDetalhes, arrayBabas, idBaba) {
+    const babaNova = arrayBabas.find((baba) => baba.id == idBaba);
+
+    let containerDetalhes = document.getElementById(idDetalhes);
+
+    if (babaNova) {
+        containerDetalhes.innerHTML += `
+            <div class = card>
+            <img class='avatar' src='img/${babaNova.foto}' alt='${babaNova.nome}'>
+            </div>
+        `;
+    }
 }
+
