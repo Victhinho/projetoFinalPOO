@@ -1,31 +1,107 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
-    background-color:#f6e27d;
-    color:#644394;
+    background-color: #644394;
+    color:whitesmoke;
 
     margin: 0;
     padding: 0;
 }
 
+
+/*Card Geral*/
 .card-expandido{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 2rem;
-    padding: 3rem 4rem 4rem 4rem;
+    padding: 5%;
+    padding-bottom: 2%;
+    width: 100%;
 }
 
+/*Card individual (padrão para todos)*/
+
 .card{
-    box-sizing: content-box;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 4rem;
+
+    border: #f6e27d solid 2px;
+    border-radius: 1rem;
     text-align: center;
 }
 
-.card > .avatar{
-        align-self: center;
-        width: 50rem;
-        max-width: 80%;
-        height: 25rem;
+/* card pessoal e card profisional*/
+
+.card-pessoal, .card-profisional{
+    background-color: #F7BFD5;;
+    border-radius: 2rem;   
+    color:#644394;
+    padding: 2%;
+    width: 25vw;
+    max-width: 80%;
+}
+
+.titulo{
+    color:#644394;
+    text-decoration:underline whitesmoke;
+    padding: 0.5rem;
+}
+
+.lista-pessoal, .lista-profisional{
+    text-align: initial;
+}
+
+/*Card de dados*/
+
+.avatar{
+    align-self: center;
+    width: 22rem;
+    max-width: 70%;
+    max-height: 14rem;
+    height: auto;
+    border-radius: 100%;
+}
+
+.nome{
+    font-size: 1.5rem;
+    font-weight:bolder;
+    margin-bottom: 0;
+}
+
+.cidade{
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: underline #f6e27d;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.btn-contrato{
+    border-radius: 1rem;
+    padding: 0.7rem;
+    width: 12vw;
+    background-color: whitesmoke;
+    font-weight: bold;
+    border: whitesmoke 2px solid;
+}
+
+/*barra de botoes*/
+
+.barra-botoes{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.barra-botoes > .btn{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+
+    color:#644394;
+    background-color: whitesmoke;
+    border:whitesmoke 1px solid; 
 }

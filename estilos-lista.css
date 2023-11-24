@@ -87,4 +87,23 @@ body {
     border:whitesmoke 1px solid; 
 }
 
+.barra-botoes{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3rem;
+}
+
+.barra-botoes > .btn{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+
+    color:#644394;
+    background-color: whitesmoke;
+    border:whitesmoke 1px solid; 
+}
+
+
 

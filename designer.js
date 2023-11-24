@@ -32,8 +32,38 @@ function desenharCardDetalhes(idDetalhes, arrayBabas, idBaba) {
     if (babaNova) {
         containerDetalhes.innerHTML += `
             <div class = card>
-            <img class='avatar' src='img/${babaNova.foto}' alt='${babaNova.nome}'>
+                <div class='card-pessoal'>
+                    <p class='titulo'>DADOS PESSOAIS</p>
+                    <ol class='lista-pessoal'>
+                        <p><li class='fa fa-star'></li></p>
+                        <p><li class='fa fa-star'></li></p>
+                        <p><li class='fa fa-star'></li></p>
+                        <p><li class='fa fa-star'></li></p>
+                        <p><li class='fa fa-star'></li></p>
+                        <p><li class='fa fa-star'></li></p>
+                    </ol>
+                </div>
+
+                <div class='card-dados'>
+                    <img class='avatar' src='img/${babaNova.foto}' alt='${babaNova.nome}'>
+                    <p class='nome'>${babaNova.nome}</p>
+                    <p class='cidade'>${babaNova.cidade}</p>
+                    <button class='btn-contrato'>CONTRATAR</button>
+                </div>
+
+                <div class='card-profisional'>
+                    <p class='titulo'>DADOS PROFISIONAIS</p>
+                    <ol class='lista-pessoal'>
+                    <p><li class='fa fa-star'></li></p>
+                    <p><li class='fa fa-star'></li></p>
+                    <p><li class='fa fa-star'></li></p>
+                    <p><li class='fa fa-star'></li></p>
+                    <p><li class='fa fa-star'></li></p>
+                    <p><li class='fa fa-star'></li></p>
+                    </ol>
+                </div>
             </div>
+           
         `;
     }
 }
